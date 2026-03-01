@@ -38,12 +38,6 @@
       "id": "2d451a5f0d9d484c9c522cc19ecfb1f1" // IMPORTANT: Change this to your KV namespace ID
     }
   ],
-"analytics_engine_datasets": [
-  { "binding": "ANALYTICS", "dataset": "sink" }
-],
-"triggers": {
-  "crons": ["0 0 * * *"] // Run backup task daily at 00:00 UTC
-}
   "triggers": {
     "crons": ["0 0 * * *"] // Run backup task daily at 00:00 UTC
   }
